@@ -1,0 +1,36 @@
+body {
+    background-color:#222226;
+    font-family: Verdana, sans-serif;
+    font-size: 18px;
+}
+
+h1 {
+    color: #ffff;
+    font-family: Verdana, sans-serif;
+    font-size: 36px;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color:#333336;
+}
+
+li {
+    color: #629656;
+   }
+
+a:link {
+    color: #EF7D55; 
+    text-decoration: none;
+  }
+  a:visited {
+    color: #EF7D55;
+  }
+  a:hover {
+    color: #fea787; 
+  }
+  a:active {
+    color: #ed3d26; 
+  }
