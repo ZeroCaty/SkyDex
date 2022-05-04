@@ -5,15 +5,13 @@ body {
 }
 
 h1 {
-    color: #ffff;
-    font-family: Verdana, sans-serif;
+    color: #ffffff;
     font-size: 36px;
 }
 
 h2 {
     margin-left: 20px;
-    color: #ffff;
-    font-family: Verdana, sans-serif;
+    color: #ffffff;
     font-size: 24px;
     font-weight: 300;
 }
