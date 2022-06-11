@@ -28,6 +28,21 @@ li {
     color: #629656;
    }
 
+.white {
+  color: #f6f2f2;
+}
+
+.red {
+  color: #d88888;
+}
+.red:hover {
+  color: #f9b8b8;
+}
+
+.gray {
+  color: #b5b5b5;
+}
+
 a:link {
     color: #EF7D55; 
     text-decoration: none;
@@ -41,3 +56,55 @@ a:link {
   a:active {
     color: #ed3d26; 
   }
+
+  .left_column, .right_column {
+    float: left;
+    width: 50%;
+  }
+
+  .right_column {
+    text-align: right;
+    padding-bottom: 20px;
+  }
+
+  button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 24px;
+}
+
+  .green-button {
+    background-color: #4CAF50;
+}
+  .green-button:hover {
+    background-color: #72dd76;
+}
+
+  .blue-button {
+  background-color: #4c4eaf;
+}
+  .blue-button:hover {
+    background-color: #6a6cd4;
+}
+
+  BODY.en :lang(ru), BODY.ru :lang(en) {
+    display: none;
+}
+
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+  background: none;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #629656;
+  border-radius: 20px;
+}
