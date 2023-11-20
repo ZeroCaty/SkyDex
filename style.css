@@ -36,6 +36,9 @@ li {
   color: #f6f2f2;
 }
 
+.ultra_red {
+  color: rgb(255, 61, 61);
+}
 .red {
   color: #d88888;
 }
@@ -117,4 +120,30 @@ body::-webkit-scrollbar-thumb {
   width: 100%;
   height: 32vw;
   min-height: 300px;
+}
+
+.p-with-icon::before {
+  content: ''; /* Необходимо для отображения псевдоэлемента */
+  display: inline-block;
+  width: 24px; /* Ширина иконки */
+  height: 24px; /* Высота иконки */
+  background-size: cover;
+  vertical-align: text-top; /* Выравнивание по центру с текстом */
+  margin-right: 8px; /* Отступ справа */
+}
+
+.icon1::before {
+  background-image: url('image/discord.png'); /* Путь к вашему изображению иконки */
+}
+.icon2::before {
+  background-image: url('image/warn.png'); /* Путь к вашему изображению иконки */
+}
+.icon3::before {
+  background-image: url('image/gd.png'); /* Путь к вашему изображению иконки */
+}
+.icon4::before {
+  background-image: url('image/yd.png'); /* Путь к вашему изображению иконки */
+}
+.icon5::before {
+  background-image: url('image/bs.png'); /* Путь к вашему изображению иконки */
 }
