@@ -151,11 +151,11 @@ body::-webkit-scrollbar-thumb {
 .faq-container {
   width: 100%;
   margin: 20px;
-  overflow: hidden;
 }
 
 .faq-question {
   margin-bottom: 10px;
+  width: 100%;
 }
 
 .faq-question-button {
@@ -164,9 +164,8 @@ body::-webkit-scrollbar-thumb {
   margin: 10px;
   font-size: 16px;
   text-align: left;
-  background: #EF7D55;
+  background: rgb(158, 68, 36);
   color: white;
-  border: none;
   border-radius: 5px;
   cursor: pointer;
 }
@@ -174,10 +173,20 @@ body::-webkit-scrollbar-thumb {
 .faq-answer {
   display: none;
   width: 90%;
-  margin: 10px;
+  margin-left: 40px;
   padding: 10px;
   font-size: 16px;
-  background-color: #f8f9fa;
-  border: 1px solid #ddd;
+  background-color: #444;
   border-radius: 5px;
+  color: white;
+}
+
+.code {
+  font-family: "Courier New", monospace; /* шрифт для отображения кода */
+  background-color: #333; /* светлый фон */
+  border: 1px solid #ddd; /* тонкая граница */
+  border-radius: 4px; /* скругленные углы */
+  padding: 0px 8px; /* небольшие отступы */
+  color: #c5c5c5; /* цвет текста */
+  white-space: pre-wrap; /* сохранение форматирования текста */
 }
